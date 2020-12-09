@@ -8,7 +8,7 @@ class Job extends Model
 {
     protected $fillable = ['title', 'description', 'local', 'remote', 'type', 'company_id'];
 
-    protected $dates = ['delete_at'];
+    protected $dates = ['deleted_at'];
 
     function company()
     {

@@ -10,7 +10,7 @@ class Company extends Model
 
     protected $hidden = ['password'];
 
-    protected $dates = ['delete_at'];
+    protected $dates = ['deleted_at'];
 
     public function jobs()
     {
